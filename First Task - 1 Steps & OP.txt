@@ -1,0 +1,28 @@
+FIRST TASK - 1
+
+1. Create Directory --->   mkdir my_folder
+2. Open/Enter to Directory --->  cd my_folder
+3. Create file1 with content  --->  echo "This is the content of my_file.txt." > my_file.txt
+4. Create file2 with content  --->  echo "This is the content of another_file.txt." > another_file.txt
+5. List out/Check whether files created or not --->  ls
+6. Using "cat" Command to check content inside the file  --->  cat my_file.txt
+7. Using "cat" Command to check content inside the file  --->  cat another_file.txt
+8. Concatenate the content of "another_file.txt" to "my_file.txt" --->  cat another_file.txt >> my_file.txt
+9. Using "cat" Command to check content inside the file  --->  cat my_file.txt
+
+OUTPUT
+
+shriram@Cherry-Blaze-HP:~/task1$ mkdir my_folder
+shriram@Cherry-Blaze-HP:~/task1$ cd my_folder
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ echo "Welcome to My File" > my_file.txt
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ echo "Welcome to Another File" > another_file.txt
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ ls
+another_file.txt  my_file.txt
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ cat my_file.txt
+Welcome to My File
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ cat another_file.txt
+Welcome to Another File
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ cat another_file.txt >> my_file.txt
+shriram@Cherry-Blaze-HP:~/task1/my_folder$ cat my_file.txt
+Welcome to My File
+Welcome to Another File
