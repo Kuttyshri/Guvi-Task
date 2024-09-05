@@ -1,0 +1,74 @@
+FIRST TASK - 2
+
+1. Create Directory ---> mkdir task1b
+2. Open/Enter to Directory ---> cd task1b
+3. Create file1 to file20 with .txt  ---> touch "File Name from 1 to 20"
+4. List out/Check whether files created or not ---> ls -l
+5. Rename first 5 files to .yml ---> mv "existing file.exe new file.exe"
+6. List out/Check whether files created or not ---> ls -l
+7. Print the latest created top 5 files among the total no of files ---> ls -lt | head -6
+
+OUTPUT
+
+shriram@Cherry-Blaze-HP:~$ mkdir task1b
+shriram@Cherry-Blaze-HP:~$ cd task1b
+shriram@Cherry-Blaze-HP:~/task1b$ touch file1.txt file2.txt file3.txt file4.txt file5.txt file6.txt file7.txt file8.txt file9.txt file10.txt file11.txt file12.txt file13.txt file14.txt file15.txt file16.txt file17.txt file18.txt file19.txt file20.txt
+shriram@Cherry-Blaze-HP:~/task1b$ ls -l
+total 0
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file1.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file10.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file11.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file12.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file13.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file14.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file15.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file16.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file17.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file18.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file19.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file2.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file20.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file3.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file4.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file5.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file6.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file7.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file8.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file9.txt
+shriram@Cherry-Blaze-HP:~/task1b$ mv file1.txt file1.yml
+shriram@Cherry-Blaze-HP:~/task1b$ mv file10.txt file10.yml
+shriram@Cherry-Blaze-HP:~/task1b$ mv file11.txt file11.yml
+shriram@Cherry-Blaze-HP:~/task1b$ mv file12.txt file12.yml
+shriram@Cherry-Blaze-HP:~/task1b$ mv file13.txt file13.yml
+shriram@Cherry-Blaze-HP:~/task1b$ ls -l
+total 0
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file1.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file10.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file11.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file12.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file13.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file14.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file15.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file16.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file17.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file18.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file19.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file2.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file20.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file3.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file4.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file5.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file6.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file7.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file8.txt
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file9.txt
+shriram@Cherry-Blaze-HP:~/task1b$ ls -lt | -6
+-6: command not found
+shriram@Cherry-Blaze-HP:~/task1b$ ls -lt | head -6
+total 0
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file1.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file10.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file11.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file12.yml
+-rw-r--r-- 1 shriram shriram 0 Sep  5 16:16 file13.yml
+shriram@Cherry-Blaze-HP:~/task1b$
