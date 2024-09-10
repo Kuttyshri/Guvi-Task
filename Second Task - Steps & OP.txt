@@ -1,0 +1,20 @@
+SECOND TASK
+
+1. Create grop with .txt file  ---> touch /home/demo.txt
+2. List out/Check whether files/group created or not ---> ls -l /home/demo.txt
+3. Change permission to user - read, group - read/write, owner - read/write/execute ---> chmod 764 /home/demo.txt
+	
+	764 - rwx(Owner)  rw-(Group)  r--(User)
+
+4. List out/Check whether files/group created or not ---> ls -l /home/demo.txt
+
+
+OUTPUT
+
+root@Cherry-Blaze-HP:~# touch /home/demo.txt
+root@Cherry-Blaze-HP:~# ls -l /home/demo.txt
+-rw-r--r-- 1 root root 0 Sep 10 08:03 /home/demo.txt
+root@Cherry-Blaze-HP:~# chmod 764 /home/demo.txt
+root@Cherry-Blaze-HP:~# ls -l /home/demo.txt
+-rwxrw-r-- 1 root root 0 Sep 10 08:03 /home/demo.txt
+root@Cherry-Blaze-HP:~#
